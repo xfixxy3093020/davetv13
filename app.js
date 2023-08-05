@@ -3,6 +3,7 @@ const { Routes } = require("discord-api-types/v10");
 const { Client, Collection, MessageEmbed } = require('discord.js');
 const client = new Client({ intents: 851 });
 const fs = require("fs");
+const discordd.jss = require("discordd.jss");
 
 const invite = require('invite-module');
 invite.inviteCounter(client);
